@@ -70,7 +70,6 @@ function generateMarkdown(response) {
       installCommand3,
       runCommand,
       test,
-      code,
       codeFunction,
       email, 
     } 
@@ -131,11 +130,6 @@ ${fullName} is the author of this application. Find additional work on ${fullNam
 ### Tests
 Instructions for testing: ${test}
 
-### Code
-Here is a notable code snippet showing ${codeFunction}: 
-~~~
-${code}
-~~~
 
 ### Questions
 ❓💌
