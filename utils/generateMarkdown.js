@@ -20,7 +20,6 @@ function renderLicenseBadge(license) {
   }
 
 
-
 }
 
 // TODO: Create a function that returns the license link
