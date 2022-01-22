@@ -13,13 +13,11 @@ function renderLicenseBadge(license) {
       return "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
       break;
     case "Apache-2.0":
-      return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      return "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
     default:
       return ""; 
   }
-
-
 }
 
 
@@ -27,8 +25,19 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
-  console.log("renderLicenseSection is running")
-
+  switch (license){
+    case "MIT":
+      return `The license for this project is: [MIT](https://opensource.org/licenses/MIT)`;
+      break; 
+    case "GNU GPLv3":
+      return ` The license for this project is: [LGPL v3](https://www.gnu.org/licenses/lgpl-3.0)`;
+      break;
+    case "Apache-2.0":
+      return `The license for this project is: [Apache 2.0](https://opensource.org/licenses/Apache-2.0)`;
+      break;
+    default:
+      return ""; 
+  }
 }
 
 // TODO: Create a function to generate markdown for README
@@ -64,7 +73,7 @@ ${description}
 Git hub URL ${gitUser}
 
 ## License
-${license}
+${renderLicenseSection(license)}
 
 
 
