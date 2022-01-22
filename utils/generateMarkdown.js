@@ -1,42 +1,49 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-//function renderLicenseBadge(license) {
+function renderLicenseBadge(license) {
 
-//}
+  console.log("renderLicenseBadge is running")
+  console.log(license);
+
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-//function renderLicenseLink(license) {
+function renderLicenseLink(license) {
+
+  console.log("renderLicenseLink is running")
   
-//}
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-//function renderLicenseSection(license) {
+function renderLicenseSection(license) {
 
-//}
+  console.log("renderLicenseSection is running")
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
 
-      //object destructuring to declare new constants from user input  
-      const 
-      {
-        fullName,
-        gitUser,
-        title,
-        description,
-        license
-      } 
-        = response;
-        
-      //console.log(fileName);
-      //console.log(fullName);
-      //console.log(gitUser);
-      //console.log(description);
-      //console.log(response);
+    //object destructuring to declare new constants from user input  
+    const 
+    {
+      fullName,
+      gitUser,
+      title,
+      description,
+      license
+    } 
+      = response;
+      
+    console.log("generate markdown is running")
 
-  return `# ${title}
+    renderLicenseBadge(license);
+
+
+
+    return `# ${title}
 # ${fullName}
 ## ${title}
     

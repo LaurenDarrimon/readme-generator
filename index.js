@@ -44,7 +44,7 @@ const questions =
 function writeToFile(fileName, markdownText) {
 
     fs.writeFile(`${fileName}README.md`, markdownText, (err) =>
-    err ? console.error(err) : console.log('Success!')
+    err ? console.error(err) : console.log('Success!')  //if there's an error, console error it, otherwise, show success 
     );
 }
 
@@ -61,7 +61,6 @@ function init() {
 
         //call fxn to write the file with paramenters of the filename and the returned data from generateMarkdown on other js file 
         writeToFile(fileName, generateMarkdown(response)); 
-     
     });
 }
 
