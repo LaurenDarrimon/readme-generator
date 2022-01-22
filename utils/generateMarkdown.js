@@ -1,19 +1,19 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+//Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
-  console.log("renderLicenseBadge is running")
-  console.log(license);
+  //console.log("renderLicenseBadge is running")
+  //console.log(license);
 
   switch (license){
     case "MIT":
-      console.log("The license is MIT");
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
       break; 
     case "GNU GPLv3":
-      console.log("The license is GNU");
+      return "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
       break;
     case "Apache-2.0":
-      console.log("The license is Apache");
+      return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
     default:
       return ""; 
@@ -22,15 +22,6 @@ function renderLicenseBadge(license) {
 
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-
-  console.log("renderLicenseLink is running")
-
-  const licenseLink = `https://img.shields.io/github/license/${gitUser}/${repoName}`
-  
-}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -58,13 +49,13 @@ function generateMarkdown(response) {
     console.log(response)
     console.log("generate markdown is running")
 
-    renderLicenseBadge(license, repoName);
 
 
 
     return `# ${title}
 # ${fullName}
 ## ${title}
+${renderLicenseBadge(license)}
     
 ## Description
 ${description}
@@ -74,6 +65,8 @@ Git hub URL ${gitUser}
 
 ## License
 ${license}
+
+
 
 `
 }
