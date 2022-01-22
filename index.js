@@ -68,6 +68,21 @@ const questions =
             name: 'runCommand',
         },
         {
+            type: 'input',
+            message: 'Enter any instructions for testing',
+            name: 'test',
+        }, 
+        {
+            type: 'input',
+            message: 'Enter important code snippet here',
+            name: 'code',
+        },
+        {
+            type: 'input',
+            message: 'What does that code show?',
+            name: 'codeFunction',
+        },
+        {
             type: 'list',
             message: 'What type of license does this project have?',
             name: 'license',

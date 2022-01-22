@@ -1,5 +1,5 @@
 # README Generator 📚
-## Lauren Duker Darrimon
+## ✍️  Lauren Duker Darrimon
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Language Badges](https://img.shields.io/github/languages/top/laurenDarrimon/readme-generator) ![Commits Badge](https://img.shields.io/github/last-commit/laurenDarrimon/readme-generator) ![Repo Size](https://img.shields.io/github/repo-size/laurenDarrimon/readme-generator) ![Repo Issues](https://img.shields.io/github/issues/laurenDarrimon/readme-generator)
     
 ## Description
@@ -34,7 +34,6 @@ npm install fs
 npm install inquirer
 ~~~
 
-
 ## Usage 
 
 To run the application from the command line: 
@@ -48,9 +47,6 @@ Then answer the prompts, being mindful of entering the correct urls, user names 
 ## Contributing 
 ✍️ 
 Lauren Duker Darrimon is the author of this application. Find additional work on Lauren Duker Darrimon's [Github profile.](http://github.com/laurenDarrimon). 
-
-## Tests
-
 
 
 ## Questions 

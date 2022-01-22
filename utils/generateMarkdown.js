@@ -69,6 +69,9 @@ function generateMarkdown(response) {
       installCommand2,
       installCommand3,
       runCommand,
+      test,
+      code,
+      codeFunction,
       email, 
     } 
       = response;
@@ -90,6 +93,7 @@ ${description}
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Code](#code)
 * [Questions](#questions)
 * [License](#license)
 
@@ -120,15 +124,18 @@ ${runCommand}
 
 
 
-
-
 ### Contributing 
 ✍️ 
 ${fullName} is the author of this application. Find additional work on ${fullName}'s [Github profile.](http://github.com/${gitUser}). 
 
 ### Tests
+Instructions for testing: ${test}
 
-
+### Code
+Here is a notable code snippet showing ${codeFunction}: 
+~~~
+${code}
+~~~
 
 ### Questions
 ❓💌
