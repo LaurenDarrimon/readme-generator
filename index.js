@@ -95,7 +95,7 @@ function init() {
     .prompt(questions)  //prompt user for questions 
 
     .then((response) => {  //only after we get prompts, then 
-        console.log(response);
+        //console.log(response);
   
         const { repoName } = response;  //object destructuring to pull out file name 
 
