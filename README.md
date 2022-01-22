@@ -1,6 +1,6 @@
 # README Generator 📚
 ## ✍️  Lauren Duker Darrimon
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Language Badges](https://img.shields.io/github/languages/top/laurenDarrimon/readme-generator) ![Commits Badge](https://img.shields.io/github/last-commit/laurenDarrimon/readme-generator) ![Repo Size](https://img.shields.io/github/repo-size/laurenDarrimon/readme-generator) ![Repo Issues](https://img.shields.io/github/issues/laurenDarrimon/readme-generator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT) ![Language Badges](https://img.shields.io/github/languages/top/laurenDarrimon/readme-generator?style=for-the-badge&logo=appveyor) ![Commits Badge](https://img.shields.io/github/last-commit/laurenDarrimon/readme-generator?style=for-the-badge&logo=appveyor) ![Repo Size](https://img.shields.io/github/repo-size/laurenDarrimon/readme-generator?style=for-the-badge&logo=appveyor) ![Repo Issues](https://img.shields.io/github/issues/laurenDarrimon/readme-generator?style=for-the-badge&logo=appveyor)
     
 ## Description
 Command line application to automatically generate a high quality README markdown file. 

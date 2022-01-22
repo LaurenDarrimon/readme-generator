@@ -41,10 +41,10 @@ function renderLicenseSection(license) {
 
 function allBadgesSection(gitUser, repoName){
 
-  const langBadge = `https://img.shields.io/github/languages/top/${gitUser}/${repoName}`
-  const commitBadge = `https://img.shields.io/github/last-commit/${gitUser}/${repoName}`
-  const sizeBadge = `https://img.shields.io/github/repo-size/${gitUser}/${repoName}`
-  const issuesBadge = `https://img.shields.io/github/issues/${gitUser}/${repoName}`
+  const langBadge = `https://img.shields.io/github/languages/top/${gitUser}/${repoName}?style=for-the-badge&logo=appveyor`
+  const commitBadge = `https://img.shields.io/github/last-commit/${gitUser}/${repoName}?style=for-the-badge&logo=appveyor`
+  const sizeBadge = `https://img.shields.io/github/repo-size/${gitUser}/${repoName}?style=for-the-badge&logo=appveyor`
+  const issuesBadge = `https://img.shields.io/github/issues/${gitUser}/${repoName}?style=for-the-badge&logo=appveyor`
 
   return `![Language Badges](${langBadge}) ![Commits Badge](${commitBadge}) ![Repo Size](${sizeBadge}) ![Repo Issues](${issuesBadge})`;
 
