@@ -20,8 +20,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-
-// TODO: Create a function that returns the license section of README
+// Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
@@ -40,7 +39,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//Create a function to generate markdown for README
 function generateMarkdown(response) {
 
     //object destructuring to declare new constants from user input  
@@ -51,29 +50,57 @@ function generateMarkdown(response) {
       title,
       description,
       license, 
-      repoName, 
+      repoName,
+      liveLink 
     } 
       = response;
       
-    console.log(response)
-    console.log("generate markdown is running")
-
-
-
+    //console.log(response)
+    //console.log("generate markdown is running")
 
     return `# ${title}
 # ${fullName}
-## ${title}
 ${renderLicenseBadge(license)}
     
 ## Description
 ${description}
 
-## Author ${fullName}
+## Table of Contents
+
+* [Link](#link)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
+
+
+## Link 
+Deployed Link: [${title}](${liveLink})
+
+
+## Installation
+
+
+## Usage 
+
+
+## Contributing 
+Author ${fullName}
 Git hub URL ${gitUser}
+
+## Tests
+
+
+
+## Questions
+
+
 
 ## License
 ${renderLicenseSection(license)}
+${renderLicenseBadge(license)}
 
 
 
