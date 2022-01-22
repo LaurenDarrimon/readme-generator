@@ -56,21 +56,14 @@ function init() {
 
     .then((response) => {  //only after we get prompts, then 
         console.log(response);
+  
+        const { fileName } = response;  //object destructuring to pull out file name 
 
-        return generateMarkdown(response);
-
-    }).then((response) => {
-
-        
-
-        const { fileName } = response;
-        writeToFile(fileName, response);
-
+        //call fxn to write the file with paramenters of the filename and the returned data from generateMarkdown on other js file 
+        writeToFile(fileName, generateMarkdown(response)); 
+     
     });
 }
 
 // Function call to initialize app
 init();
-
-
-
