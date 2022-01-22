@@ -79,19 +79,19 @@ ${description}
 
 
 ## Link 
-Deployed Link: [${title}](${liveLink})
+Link to application [${title}](${liveLink})
 
 
 ## Installation
-In order for this application to work, you need to install the following: ${installs}. 
+In order for this application to work, you need to install the following (dependencies): 
+${installs}. 
 
 
 ## Usage 
 
 
 ## Contributing 
-Author ${fullName}
-Git hub URL ${gitUser}
+${fullName} is the author of this application. Find additional work on ${fullName}'s [Github profile.](http://github.com/${gitUser}). 
 
 ## Tests
 
@@ -100,13 +100,9 @@ Git hub URL ${gitUser}
 ## Questions
 Reach out to ${fullName} at ${email} if you have any questions. 
 
-
-
 ## License
 ${renderLicenseSection(license)}
 ${renderLicenseBadge(license)}
-
-
 
 `
 }
