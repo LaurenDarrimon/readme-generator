@@ -19,6 +19,11 @@ const questions =
         },
         {
             type: 'input',
+            message: 'Email address for questions to be sent to',
+            name: 'email',
+        },
+        {
+            type: 'input',
             message: 'What is the title of this repo?',
             name: 'title',
         },
@@ -29,8 +34,18 @@ const questions =
         },
         {
             type: 'input',
-            message: 'Please enter a description of the site.',
+            message: 'Enter a description of the site',
             name: 'description',
+        },
+        {
+            type: 'input',
+            message: 'Enter the live site deployed URL',
+            name: 'liveLink',
+        },
+        {
+            type: 'input',
+            message: 'What do you need to install for this application to work?',
+            name: 'installs',
         },
         {
             type: 'list',

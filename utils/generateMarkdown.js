@@ -51,7 +51,9 @@ function generateMarkdown(response) {
       description,
       license, 
       repoName,
-      liveLink 
+      liveLink, 
+      installs, 
+      email
     } 
       = response;
       
@@ -81,6 +83,7 @@ Deployed Link: [${title}](${liveLink})
 
 
 ## Installation
+In order for this application to work, you need to install the following: ${installs}. 
 
 
 ## Usage 
@@ -95,6 +98,7 @@ Git hub URL ${gitUser}
 
 
 ## Questions
+Reach out to ${fullName} at ${email} if you have any questions. 
 
 
 
