@@ -5,6 +5,22 @@ function renderLicenseBadge(license) {
   console.log("renderLicenseBadge is running")
   console.log(license);
 
+  switch (license){
+    case "MIT":
+      console.log("The license is MIT");
+      break; 
+    case "GNU GPLv3":
+      console.log("The license is GNU");
+      break;
+    case "Apache-2.0":
+      console.log("The license is Apache");
+      break;
+    default:
+      return ""; 
+  }
+
+
+
 }
 
 // TODO: Create a function that returns the license link
@@ -12,6 +28,8 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 
   console.log("renderLicenseLink is running")
+
+  const licenseLink = `https://img.shields.io/github/license/${gitUser}/${repoName}`
   
 }
 
@@ -33,13 +51,15 @@ function generateMarkdown(response) {
       gitUser,
       title,
       description,
-      license
+      license, 
+      repoName, 
     } 
       = response;
       
+    console.log(response)
     console.log("generate markdown is running")
 
-    renderLicenseBadge(license);
+    renderLicenseBadge(license, repoName);
 
 
 
