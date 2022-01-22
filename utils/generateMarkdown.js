@@ -39,6 +39,18 @@ function renderLicenseSection(license) {
   }
 }
 
+function allBadgesSection(gitUser, repoName){
+
+  const langBadge = `https://img.shields.io/github/languages/top/${gitUser}/${repoName}`
+  const commitBadge = `https://img.shields.io/github/last-commit/${gitUser}/${repoName}`
+  const sizeBadge = `https://img.shields.io/github/repo-size/${gitUser}/${repoName}`
+  const issuesBadge = `https://img.shields.io/github/issues/${gitUser}/${repoName}`
+
+  return `![Language Badges](${langBadge}) ![Commits Badge](${commitBadge}) ![Repo Size](${sizeBadge}) ![Repo Issues](${issuesBadge})`;
+
+
+}
+
 //Create a function to generate markdown for README
 function generateMarkdown(response) {
 
@@ -53,7 +65,11 @@ function generateMarkdown(response) {
       repoName,
       liveLink, 
       installs, 
-      email
+      installCommand1,
+      installCommand2,
+      installCommand3,
+      runCommand,
+      email, 
     } 
       = response;
       
@@ -61,13 +77,13 @@ function generateMarkdown(response) {
     //console.log("generate markdown is running")
 
     return `# ${title}
-# ${fullName}
-${renderLicenseBadge(license)}
+## ${fullName}
+${renderLicenseBadge(license)} ${allBadgesSection(gitUser, repoName)}
     
-## Description
+### Description
 ${description}
 
-## Table of Contents
+### Table of Contents
 
 * [Link](#link)
 * [Installation](#installation)
@@ -78,29 +94,47 @@ ${description}
 * [License](#license)
 
 
-## Link 
+### Link 
+🔗 
 Link to application [${title}](${liveLink})
 
 
-## Installation
+### Installation
+🔧
 In order for this application to work, you need to install the following (dependencies): 
 ${installs}. 
 
+~~~
+${installCommand1} 
+${installCommand2}
+${installCommand3}
+~~~
 
-## Usage 
+
+### Usage 
+To run the application from the command line: 
+
+~~~
+${runCommand}
+~~~
 
 
-## Contributing 
+
+
+
+### Contributing 
+✍️ 
 ${fullName} is the author of this application. Find additional work on ${fullName}'s [Github profile.](http://github.com/${gitUser}). 
 
-## Tests
+### Tests
 
 
 
-## Questions
+### Questions
+❓💌
 Reach out to ${fullName} at ${email} if you have any questions. 
 
-## License
+### License
 ${renderLicenseSection(license)}
 ${renderLicenseBadge(license)}
 

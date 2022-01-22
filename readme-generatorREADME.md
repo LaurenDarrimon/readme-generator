@@ -1,11 +1,11 @@
-# README Generator 📚
-## Lauren Duker Darrimon
+# readme
+## ejnkejnc
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Language Badges](https://img.shields.io/github/languages/top/laurenDarrimon/readme-generator) ![Commits Badge](https://img.shields.io/github/last-commit/laurenDarrimon/readme-generator) ![Repo Size](https://img.shields.io/github/repo-size/laurenDarrimon/readme-generator) ![Repo Issues](https://img.shields.io/github/issues/laurenDarrimon/readme-generator)
     
-## Description
-Command line application to automatically generate a high quality README markdown file. 
+### Description
+cfefjn
 
-## Table of Contents
+### Table of Contents
 
 * [Link](#link)
 * [Installation](#installation)
@@ -16,48 +16,47 @@ Command line application to automatically generate a high quality README markdow
 * [License](#license)
 
 
-## Link 
+### Link 
 🔗 
-Link to application [README Generator](https://github.com/LaurenDarrimon/readme-generator)
+Link to application [readme](erfjn)
 
 
-## Installation 
+### Installation
 🔧
 In order for this application to work, you need to install the following (dependencies): 
-- Node.js
-- Node module Fs (file system) 
-- Node module Inquirer
+ekrfkjb. 
 
 ~~~
-npm init 
-npm install fs
-npm install inquirer
+ekfbeih 
+ihrefbeihb
+rfier
 ~~~
 
 
-## Usage 
-
+### Usage 
 To run the application from the command line: 
 
 ~~~
-node index.js
+kehrfnkherb
 ~~~
 
-Then answer the prompts, being mindful of entering the correct urls, user names and file names. Your readme markdown file will be automatically generated at the conclusion of the prompts. 
 
-## Contributing 
+
+
+
+### Contributing 
 ✍️ 
-Lauren Duker Darrimon is the author of this application. Find additional work on Lauren Duker Darrimon's [Github profile.](http://github.com/laurenDarrimon). 
+ejnkejnc is the author of this application. Find additional work on ejnkejnc's [Github profile.](http://github.com/laurenDarrimon). 
 
-## Tests
+### Tests
 
 
 
-## Questions 
+### Questions
 ❓💌
-Reach out to Lauren Duker Darrimon at hello@laurenlalita.com if you have any questions. 
+Reach out to ejnkejnc at jenckejn if you have any questions. 
 
-## License
+### License
 The license for this project is: [MIT](https://opensource.org/licenses/MIT)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

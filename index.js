@@ -48,6 +48,26 @@ const questions =
             name: 'installs',
         },
         {
+            type: 'input',
+            message: 'First command line installation prompt',
+            name: 'installCommand1',
+        },
+        {
+            type: 'input',
+            message: 'Second command line installation prompt',
+            name: 'installCommand2',
+        },
+        {
+            type: 'input',
+            message: 'Third command line installation prompt',
+            name: 'installCommand3',
+        },
+        {
+            type: 'input',
+            message: 'What is the command to run the application?',
+            name: 'runCommand',
+        },
+        {
             type: 'list',
             message: 'What type of license does this project have?',
             name: 'license',
