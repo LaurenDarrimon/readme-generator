@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
 
   switch (license){
     case "MIT":
-      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT)";
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=appveyor)](https://opensource.org/licenses/MIT)";
       break; 
     case "GNU GPLv3":
       return "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg?style=for-the-badge&logo=appveyor)](https://www.gnu.org/licenses/lgpl-3.0)";
@@ -92,7 +92,6 @@ ${description}
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Code](#code)
 * [Questions](#questions)
 * [License](#license)
 
@@ -120,7 +119,6 @@ To run the application from the command line:
 ~~~
 ${runCommand}
 ~~~
-
 
 
 ### Contributing 
