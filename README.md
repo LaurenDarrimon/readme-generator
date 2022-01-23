@@ -20,6 +20,8 @@ Command line application to automatically generate a high quality README markdow
 🔗 
 Link to application [README Generator](https://github.com/LaurenDarrimon/readme-generator)
 
+![user prompts to generate readme](images/readme-gen.gif)
+
 
 ## Installation 
 🔧
@@ -43,6 +45,8 @@ node index.js
 ~~~
 
 Then answer the prompts, being mindful of entering the correct urls, user names and file names. Your readme markdown file will be automatically generated at the conclusion of the prompts. 
+
+[Take a video walkthrough of this application here.](https://drive.google.com/file/d/1IYyAX502u_21J9-IiXo5XQiAv5VPZKfu/view?usp=sharing) 
 
 ## Contributing 
 ✍️ 
