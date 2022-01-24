@@ -73,6 +73,11 @@ const questions =
             name: 'test',
         }, 
         {
+            type: 'input',
+            message: 'Enter the guidelines for contributions',
+            name: 'contribute',
+        }, 
+        {
             type: 'list',
             message: 'What type of license does this project have?',
             name: 'license',

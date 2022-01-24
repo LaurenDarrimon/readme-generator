@@ -70,7 +70,7 @@ function generateMarkdown(response) {
       installCommand3,
       runCommand,
       test,
-      codeFunction,
+      contribute,
       email, 
     } 
       = response;
@@ -123,7 +123,9 @@ ${runCommand}
 
 ### Contributing 
 ✍️ 
-${fullName} is the author of this application. Find additional work on ${fullName}'s [Github profile.](http://github.com/${gitUser}). 
+${fullName} is the author of this application. Find additional work on ${fullName}'s [Github profile.](http://github.com/${gitUser}).
+
+Follow these guildines for contributing to this project: ${contribute}
 
 ### Tests
 Instructions for testing: ${test}

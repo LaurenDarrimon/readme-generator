@@ -1,9 +1,9 @@
-# weather app
+# SAMPLE APP 
 ## Sample User
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg?style=for-the-badge&logo=appveyor)](https://www.gnu.org/licenses/lgpl-3.0) ![Language Badges](https://img.shields.io/github/languages/top/laurendarrimon/weather-app?style=for-the-badge&logo=appveyor) ![Commits Badge](https://img.shields.io/github/last-commit/laurendarrimon/weather-app?style=for-the-badge&logo=appveyor) ![Repo Size](https://img.shields.io/github/repo-size/laurendarrimon/weather-app?style=for-the-badge&logo=appveyor) ![Repo Issues](https://img.shields.io/github/issues/laurendarrimon/weather-app?style=for-the-badge&logo=appveyor)
     
 ### Description
-Use this interactive weather app to get current weather conditions for any city on earth. It will also show you a convenient 5-day forecast for planning. Your searches are saved so that you can easily toggle back and forth between cities you have looked up.
+This is a description of the application. This is a description of the application. This is a description of the application. 
 
 ### Table of Contents
 
@@ -44,6 +44,8 @@ node index.js
 ### Contributing 
 ✍️ 
 Sample User is the author of this application. Find additional work on Sample User's [Github profile.](http://github.com/laurendarrimon). 
+
+Follow these guildines for contributing to this project: The conribution guidelines go here. 
 
 ### Tests
 Instructions for testing: These are the instructions for testing. 
